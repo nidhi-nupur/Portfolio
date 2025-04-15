@@ -1,4 +1,4 @@
 
 function openPDF() {
-    window.open('./resume.pdf', '_blank');
+    window.open('./N. Nupur RESUME.pdf', '_blank');
 }
