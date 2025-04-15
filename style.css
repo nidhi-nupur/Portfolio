@@ -76,6 +76,24 @@ a {
     color: var(--lightPink-color);
     transform: translateY(-3px);
 }
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .header {
+        padding: 8px;
+    }
+    
+    .logo a {
+        font-size: 2rem;
+    }
+    
+    .nav-link {
+        font-size: 1.1rem;
+    }
+    
+}
+
+
 /* Mobile */
 @media (max-width: 767px) {
     .header {
@@ -178,6 +196,42 @@ a {
     border-radius: 50%;
 }
 
+/* Desktop */
+@media (min-width: 1024px) {
+    .intro {
+        height: 60vh;
+    }
+
+    .item-container-name {
+        font-size: 5.1rem;
+    }
+
+    .item-container-profession {
+        font-size: 1.5rem;
+    }
+
+    .pfp  {
+        margin-left: 20px;
+        height: 17rem;
+        width: 17rem;
+    }
+
+    .item-container-info {
+        font-size: 1rem;
+    }
+
+    .social-logos {
+        max-width: 30%;
+        padding-top: 20px;
+    }
+
+    .social-logos > a > * {
+        height: 20px;
+    }
+
+}
+
+
 /* Mobile */
 @media (max-width: 767px) {
     .intro {
@@ -276,6 +330,24 @@ a {
     font-weight: 500;
     color: var(--lightPink-color);
 }
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .B {
+        margin: 20px 0 20px 0;
+    }
+
+    .light-item {
+        font-size: 1.1rem;
+    }
+    
+    .bold-item {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: var(--lightPink-color);
+    }
+}
+
 /* Mobile */
 @media (max-width: 767px) {
     .B {
@@ -400,6 +472,55 @@ a {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px #121481a4;
 }
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .h1-bold {
+        font-size: 4.9rem;
+    }
+    
+    #aboutme {
+        width: 100%;
+    }
+    
+    .container1 {
+        margin: 40px;
+    }
+    
+    .item-container1 {
+        padding: 10px;
+    }
+    
+    .item-bolder {
+        font-size: 1.1rem;
+    }
+    
+    .item-bold {
+        font-size: 1rem;
+    }
+    
+    
+    .container2 {
+        margin: 20px 0 50px 0;
+        width: 70%;
+        padding: 0 50px 0 50px;
+        font-size: 0.9rem;
+    }
+    
+    
+    .bold-span-elt {
+        font-weight: 500;
+    }
+    
+    
+    .button-style {
+        margin-top: 30px;
+        padding: 9px;
+        font-size: 1rem;
+        border-radius: 7px;
+    }
+}
+
 
 /* Mobile */
 @media (max-width: 767px) {
@@ -697,6 +818,114 @@ a {
 .certification-institution {
     font-weight: 300;
     font-size: 1rem;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    
+    .interest {
+        margin: 40px;
+    }
+    
+    .interest-item {
+        padding: 10px;
+    }
+    
+    .bold-interest {
+        font-size: 1rem;
+    }
+    
+    .right-div {
+        font-size: 0.9rem;
+        width: 70%;
+        margin: 20px 0 50px 0;
+        padding: 0 50px 0 50px;
+    }
+    
+    .sub-heading {
+        font-size: 2.1rem;
+    }
+    
+    .skill-container {
+        gap: 10px;
+    }
+    
+    .skill-card {
+        padding: 8px;
+        border-radius: 7px;
+    
+    }
+
+    /* 
+    .skill-name {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #000000d7;
+    }
+    
+    .skill-card:hover .skill-name {
+        color: #FFEAE3;
+    }
+    
+    .skill-bar {
+        width: 100%;
+        background-color: #FFEAE3;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+    }
+     */
+    /* Animated Gradient Skill Level */
+    /* .skill-level {
+        height: 10px;
+        background: linear-gradient(90deg, #FFB1B1, #121481);
+        border-radius: 10px;
+        width: 0;
+        animation: fillBar 2s ease-in-out forwards;
+    } */
+    
+    /* Animation Keyframes */
+    /* @keyframes fillBar {
+        from { width: 0; }
+        to { width: var(--skill-level); }
+    } */
+    
+    .right-bottom-part {
+        width: 90%;
+    }
+    
+    .education-course {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    
+    .education-institution {
+        font-size: 0.9rem;
+    }
+    
+    .experience-main {
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    
+    .experience-position {
+        font-weight: 200;
+        font-size: 0.8rem;
+    }
+    
+    .experience-info {
+        font-size: 0.9rem;
+    }
+    
+    .certification-course {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    
+    .certification-institution {
+        font-weight: 300;
+        font-size: 1rem;
+    }
 }
 
 /* Mobile */
@@ -1041,6 +1270,50 @@ figcaption {
     color: #000000d7;
 } 
 
+/* Desktop */
+@media (min-width: 1024px) {
+    .my-project-info {
+        font-size: 1.1rem;
+    }
+    
+    .project-container {
+        margin: 20px;
+        gap: 15px;
+    }
+    
+    .project-member {
+        padding: 20px;
+        flex-basis: 400px;
+        border-radius: 8px;
+    }
+    
+    .project-item-infos {
+        padding: 0 7px 0 15px;
+    }
+    
+    figure > img {
+        border-radius: 7px;
+    }
+    
+    figcaption {
+        float: right;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .project-name {
+        font-size: 1.5rem;
+    }
+   
+    .project-tools {
+        font-size: 0.8rem;
+    }
+    
+    .project-caption {
+        font-size: 0.6rem;
+    } 
+}
+
 /* Mobile */
 @media (max-width: 767px) {
     .my-project-info {
@@ -1196,6 +1469,37 @@ figcaption {
     background-color: #ffffff9c;
     color: white;
     transform: translateY(-5px);
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    
+    .contactme-item {
+        padding: 8px;
+    }
+    
+    .bold-contactme {
+        font-size: 1.1rem;
+    }
+    
+    .right-contactme {
+        width: 70%;
+        margin: 20px 0 50px 0;
+        padding: 0 50px 0 50px;
+    }
+    
+    .contactme-info {
+        margin-bottom: 20px;
+    }
+    
+    .h1-contactme-form {
+        font-size: 1.3rem;
+    }
+    
+    .form-input {
+        padding: 7px;
+        border-radius: 6px;
+    }
 }
 
 /* Mobile */
