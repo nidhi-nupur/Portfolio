@@ -11,15 +11,14 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="logo"><a href="#myPortfolio">My Portfolio</a></h1>
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
-                <li class="nav-item"><a href="#myresume" class="nav-link">My Resume</a></li>
-                <li class="nav-item"><a href="#myproject" class="nav-link">My Projects</a></li>
-                <li class="nav-item"><a href="#contactme" class="nav-link">Contact Me</a></li>
-            </ul>
-        </nav>
+      <a href="#" class="logo">Portfolio</a>
+      <nav>
+        <div id="indicator"></div>
+        <a href="#About-Me">About</a>
+        <a href="#My-Resume">Resume</a>
+        <a href="#My-Projects">Projects</a>
+        <a href="#Contact-Me">Contact</a>
+      </nav>
     </header>
 
     <main>
@@ -64,7 +63,7 @@
     </section>
 
     <!-- C Section -->
-    <h1 class="h1-bold">About Me</h1>
+    <h1 class="h1-bold" id="About-Me">About Me</h1>
     <section id="aboutme" class="C">
         <div class="container1">
             <div class="item-container1">
@@ -94,11 +93,12 @@
             <p>At present, I am immersing myself in the study of Data Structures and Algorithms using Java, while simultaneously exploring the dynamic field of Full Stack Development. Looking ahead, I am determined to delve into the realms of Ethical Hacking and Operating Systems, aiming to build a robust foundation in these critical areas. My approach is rooted in a growth mindset- I thrive on challenges, embrace opportunities for self-improvement, and strive to transform every experience into a catalyst for personal and professional development.</p>
 
             <button type="button" class="button-style" onclick="openPDF()">View Resume</button>
+             
         </div>
      </section>
 
     <!-- D Section -->
-    <h1  id="myresume" class="h1-bold resume">My Resume</h1>
+    <h1  id="My-Resume" class="h1-bold resume">My Resume</h1>
     <section class="D">
         <div class="interest">
           <div class="interest-item">
@@ -134,7 +134,7 @@
           <div class="skills">
             <h2 class="sub-heading">SKILLS</h2>
               <div class="skill-container">
-
+                
                 <!-- JAVA Card -->
                 <div class="skill-card">
                   <div class="skill-name">JAVA</div>
@@ -254,7 +254,7 @@
                     <div class="skill-level" style="--skill-level: 80%;"></div>
                   </div>
                 </div>
-
+                
               </div>
           </div>
 
@@ -353,159 +353,151 @@
       </section>
 
       <!-- E Section -->
-      <h1 id="myproject" class="h1-bold my-project-title">My Projects</h1>
+      <h1 id="My-Projects" class="h1-bold my-project-title">My Projects</h1>
         
       <p class="my-project-info">Here is a collection of mini and major projects I built while learning. <br>In the future, I am determined to expand this portfolio with more interesting and innovative projects.</p>
 
       <section class="E">
-        <div class="project-container">
 
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/DrumKit.jpg" alt="portfolio" width="160px" height="120px">
-                  <figcaption>2025</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">Drum Set</h3>
-                <p class="project-tools">HTML | CSS | JavaScript</p>
-                <p class="project-caption">An interactive and fun virtual drum kit built using HTML, CSS, and JavaScript. This project allows users to play different drum sounds by clicking buttons on the screen or pressing corresponding keys on the keyboard.</p>
-              </div>
-            </div>
-
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/SimonGame.jpg" alt="portfolio" width="160px" height="120px">
-                  <figcaption>2025</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">Simon Game</h3>
-                <p class="project-tools">HTML | CSS | JavaScript | jQuery</p>
-                <p class="project-caption">A simple, interactive memory game built using HTML, CSS, JavaScript, and jQuery. This is a browser-based version of the classic Simon game, where the player has to repeat an ever-increasing sequence of colors and sounds.</p>
-              </div>
-            </div>
-
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/DiceChallenge.jpg" alt="portfolio" width="160px" height="120px">
-                  <figcaption>2025</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">Dice Challenge</h3>
-                <p class="project-tools">HTML | CSS | JavaScript</p>
-                <p class="project-caption">A fun and interactive dice game built using HTML, CSS, and JavaScript. This mini-project refreshes the page to simulate rolling two dice and announces the winner between Player 1 and Player 2.</p>
-              </div>
-            </div>
+        <div class="project-main-container">
           
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/Portfolio.jpg" alt="portfolio" width="160px" height="120px">
-                  <figcaption>2025</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">My Portfolio</h3>
-                <p class="project-tools">HTML | CSS</p>
-                <p class="project-caption">This is the project where I’ve used both HTML and CSS, applying all the web development concepts I’ve learned so far.</p>
-              </div>
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/DrumKit.jpg" alt="drumKit">
             </div>
-  
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/TinDogs.png" alt="tindog" width="160px" height="120px">
-                  <figcaption>2025</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">TinDogs</h3>
-                <p class="project-tools">HTML | CSS | Bootstrap</p>
-                <p class="project-caption">'Tinder for Dogs ;)' is a project I created to strengthen my Bootstrap skills.</p>
-              </div>
+            <div class="project-content">
+              <h3>Drum Set</h3>
+              <p class="tech-tools">HTML | CSS | JavaScript</p>
+              <p class="Project-discription">An interactive and fun virtual Drum Set. This project allows users to play different drum sounds by clicking buttons on the screen or pressing corresponding keys on the keyboard.</p>
+              <a href="https://nidhi-nupur.github.io/Drum-Set/">Check It Out</a>
             </div>
-            
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/TicTacToe.jpg" alt="tictactoe" width="160px" height="120px">
-                  <figcaption>2025</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">Tic Tac Toe</h3>
-                <p class="project-tools">JAVA</p>
-                <p class="project-caption">It is a gaming tool project I developed using JAVA.</p>
-              </div>
+          </div>
+          
+
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/SimonGame.jpg" alt="simonGame">
             </div>
-            
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/TechSpectrum.jpg" alt="techSpectrum" width="160px" height="120px">
-                  <figcaption>2025</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">Tech Spectrum</h3>
-                <p class="project-tools">HTML | CSS</p>
-                <p class="project-caption">This project highlights all the BTech branches offered by my college.</p>
-              </div>
+            <div class="project-content">
+              <h3>Simon Game</h3>
+              <p class="tech-tools">HTML | CSS | JavaScript | jQuery</p>
+              <p class="Project-discription">A simple, interactive memory game. This is a browser-based version of the classic Simon game, where the player has to repeat an ever-increasing sequence of colors and sounds.</p>
+              <a href="https://nidhi-nupur.github.io/Simon-Game/">Check It Out</a>
             </div>
-            
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/ProfileCard.jpg" alt="Profile card" width="160px" height="120px">
-                  <figcaption>2024</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">Profile Card</h3>
-                <p class="project-tools">HTML | CSS </p>
-                <p class="project-caption">It is a mini-project I built to enhance my CSS skills.</p>
-              </div>
+          </div>
+          
+
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/DiceChallenge.jpg" alt="diceChallenge">
             </div>
-            
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/StarryBitesCafe.jpg" alt="Starry Bites Cafe" width="160px" height="120px">
-                  <figcaption>2024</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">Starry Bites Caf&eacute;</h3>
-                <p class="project-tools">HTML</p>
-                <p class="project-caption">It was my very first web development project ever. I created a hypothetical caf&eacute; website using HTML.</p>
-              </div>
+            <div class="project-content">
+              <h3>Dice Challenge</h3>
+              <p class="tech-tools">HTML | CSS | JavaScript</p>
+              <p class="Project-discription">A fun and interactive dice game. This mini-project refreshes the page to simulate rolling two dice and announces the winner between Player 1 and Player 2.</p>
+              <a href="https://nidhi-nupur.github.io/The-Dice-Challenge/">Check It Out</a>
             </div>
-            
-            <div class="project-member">
-              <div class="project-fig-and-figcaption">
-                <figure>
-                  <img src="./asserts/Calculator.jpg" alt="Calculator" width="160px" height="120px">
-                  <figcaption>2024</figcaption>
-                </figure>
-              </div>
-              <div class="project-item-infos">
-                <h3 class="project-name">Calculator</h3>
-                <p class="project-tools">C Language</p>
-                <p class="project-caption">I created this project to strengthen my understanding of C programming concepts.</p>
-              </div>
+          </div>
+          
+
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/Portfolio.jpg" alt="portfolio">
             </div>
+            <div class="project-content">
+              <h3>My Portfolio</h3>
+              <p class="tech-tools">HTML | CSS | JavaScript</p>
+              <p class="Project-discription">This is my personal portfolio website showcasing my skills, projects, education, and experiences as a Computer Science Engineering student and aspiring developer/designer.</p>
+              <a href="https://nidhi-nupur.github.io/Portfolio/">Check It Out</a>
+            </div>
+          </div>
+          
+
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/TinDogs.png" alt="tindog">
+            </div>
+            <div class="project-content">
+              <h3>TinDogs</h3>
+              <p class="tech-tools">HTML | CSS | Bootstrap</p>
+              <p class="Project-discription">TinDog is a fun and responsive website designed for dog lovers looking to meet new and interesting dogs nearby. This project is a playful take on the concept of dating apps, but for dogs!</p>
+              <a href="https://github.com/nidhi-nupur/TinDog">Check It Out</a>
+            </div>
+          </div>
+          
+
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/TicTacToe.jpg" alt="tictactoe">
+            </div>
+            <div class="project-content">
+              <h3>Tic Tac Toe</h3>
+              <p class="tech-tools">JAVA</p>
+              <p class="Project-discription">This is a simple "Tic Tac Toe" game built using "Java". The game is played in the console between two players who take turns placing their mark (X or O) on a 3x3 grid.</p>
+              <a href="https://github.com/nidhi-nupur/Tic-Tac-Toe">Check It Out</a>
+            </div>
+          </div>
+          
+<!-- 
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/TechSpectrum.jpg" alt="techSpectrum">
+            </div>
+            <div class="project-content">
+              <h3>Tech Spectrum</h3>
+              <p class="tech-tools">HTML | CSS</p>
+              <p class="Project-discription">Welcome to "TechSpectrum", a sleek and informative webpage that highlights various engineering branches with style and clarity.</p>
+              <a href="https://nidhi-nupur.github.io/TechSpectrum/">Check It Out</a>
+            </div>
+          </div>
+          
+
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/ProfileCard.jpg" alt="Profile card">
+            </div>
+            <div class="project-content">
+              <h3>Profile Card</h3>
+              <p class="tech-tools">HTML | CSS</p>
+              <p class="Project-discription">A clean, responsive, and visually appealing staff profile card layout. This project demonstrates core concepts of responsive design, Flexbox layout, and modern CSS features with media queries.</p>
+              <a href="https://nidhi-nupur.github.io/Profile-Card/">Check It Out</a>
+            </div>
+          </div>
+ -->
+          
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/StarryBitesCafe.jpg" alt="Starry Bites Cafe">
+            </div>
+            <div class="project-content">
+              <h3>Starry Bites Caf&eacute;</h3>
+              <p class="tech-tools">HTML | CSS</p>
+              <p class="Project-discription">This is a multi-page website for a fictional celestial-themed caf&eacute; called "Starry Bites Caf&eacute;". It was my first web development project created using HTML5 and CSS.</p>
+              <a href="https://nidhi-nupur.github.io/Starry-Bites-Caf-/">Check It Out</a>
+            </div>
+          </div>
+          
+          
+          <div class="card" style="--clr:#FFCBCB">
+            <div class="imgBox">
+              <img src="./asserts/Calculator.jpg" alt="Calculator">
+            </div>
+            <div class="project-content">
+              <h3>Calculator</h3>
+              <p class="tech-tools">C Language</p>
+              <p class="Project-discription">A console-based calculator in C that performs various mathematical operations through a menu-driven interface, allowing repeated use until exit.</p>
+              <a href="https://github.com/nidhi-nupur/C-Calculator">Check It Out</a>
+            </div>
+          </div>
         </div>
-        <p class="my-project-info">Check out my <span class="bold-span-elt"><a href="https://github.com/nidhi-nupur">GitHub </a></span> to review my latest projects and contributions.</p>
-      </section>
+      </section> 
+      <p class="my-project-info">Check out my <span class="bold-span-elt"><a href="https://github.com/nidhi-nupur">GitHub </a></span> to review my latest projects and contributions.</p>
+
+
 
       <!-- F Section -->
-      <h1 class="h1-bold contact-me">Let's Catch Up!</h1>
-      <section id="contactme" class="F">
+      <h1 id="Contact-Me" class="h1-bold contact-me">Let's Catch Up!</h1>
+      <section class="F">
         <div class="left-contactme">
           <div class="contactme-item">
             <img src="./asserts/callLOGO.svg" alt="call-logo" >
